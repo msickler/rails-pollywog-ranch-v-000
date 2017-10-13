@@ -1,10 +1,10 @@
 class CreateTadpoles < ActiveRecord::Migration
   def change
     create_table :tadpoles do |f|
-      t.string :name 
-      t.string :color 
+      t.string :name
+      t.string :color
       t.integer :frog_id
-      
+
       t.timestamps null: false
     end
 
