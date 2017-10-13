@@ -5,4 +5,6 @@ class CreatePonds < ActiveRecord::Migration
          t.string :water_type
 
          t.timestamps null: false
+       end 
+     end
 end
